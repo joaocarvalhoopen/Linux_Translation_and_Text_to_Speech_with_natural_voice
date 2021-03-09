@@ -9,6 +9,19 @@ This is the **version 2.0, a total re-implementation in Python with many added f
 
 ![Linux Translation and Text to Speech with natural voice version 2.0](./linux_translation_and_TTS.png)
 
+
+* In the following languages:
+  * 1 - Kill current speech.
+  * 2 - Speech in English.
+  * 3 - Translate from English into Portuguese and speak.
+  * 4 - Translate from Portuguese into English and speak.
+  * 5 - Speech in Spanish.
+  * 6 - Translate from Spanish into Portuguese and speak.
+  * 7 - Translate from Portuguese into Spanish and speak.
+  * 8 - Speech in Portuguese.
+
+
+
 <br>
 The objective was to achieve speed reading but in a computer screen and with full comprehension, no skimming of text.
 An easy to use, fast and practical method for English, Portuguese and Spanish (you can customize to any language you need). <br>

@@ -18,7 +18,7 @@
 #                5 - Speech in Spanish.
 #                6 - Translate from Spanish into Portuguese and speak.
 #                7 - Translate from Portuguese into Spanish and speak.
-#                5 - Speech in Portuguese.
+#                8 - Speech in Portuguese.
 #
 #
 # The programs that we use:
