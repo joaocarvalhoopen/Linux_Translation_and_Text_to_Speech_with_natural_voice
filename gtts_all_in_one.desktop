@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=gtts_all_in_one.py
+Comment=gtts_all_in_one
+Exec=/home/joao/anaconda3/bin/python /home/joao/gtts_my_speak/gtts_all_in_one.py
+Icon=/home/joao/gtts_my_speak/gtts_all_in_one.py
+Path=/home/joao/gtts_my_speak/
+Terminal=false
+Type=Application
+Categories=Utility;Application;
