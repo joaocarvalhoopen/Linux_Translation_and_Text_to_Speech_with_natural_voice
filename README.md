@@ -68,7 +68,7 @@ sudo apt-get install libsox-fmt-mp3
 
 ```
 
-To test if all is correctly installed, and to ear the quality of the audio, do:
+* To test if all is correctly installed, and to ear the quality of the audio, do:
 
 ``` sh
 gtts-cli -l en 'Good morning!' | play -t mp3 -
@@ -97,7 +97,7 @@ cp gtts_all_in_one.desktop ~/.local/share/applications
 * Edit the python file "gtts_all_in_one.py" and if you don't have Anaconda change the ```#!/usr/bin/env /home/joao/anaconda3/bin/python``` to ```#!/usr/bin/env python```. Change also the path of Anaconda3 on line 215. <br> 
 
 * Edit the python file "gtts_all_in_one.py" and change the MY_USER_DIR to your user directory. <br>
-  Change /home/joao to your username /home/username.
+  Change ```/home/joao``` to your username ```/home/username``` .
 
 * Make the Python script file executable.
 
@@ -106,9 +106,22 @@ chmod u+x ./gtts_all_in_one.py
 
 ```
 
+* To test the GUI program do:
+
+```  
+./gtts_all_in_one.py
+
+```
+
+* ... and then do ... to launch the GUI from the launcher that will be used in the menu shortcut.
+
+```
+gtk-launch gtts_all_in_one.desktop
+
+```
+
 * Then it is necessary to create the shortcuts on Ubuntu or debian with Window Manager gnome definitions:<br>
-<br>
-Change ```/home/joao``` to your username ```/home/username```. <br>
+   Change ```/home/joao``` to your username ```/home/username```. <br>
 <br>
 On the desktop of Ubuntu, right upper corner in the arrow pointing downwards -> Definition -> shortcuts in the keyboard -> Go to the end of the page -> click on the button  "+" -> Addd each of the shortcuts. <br>
 
