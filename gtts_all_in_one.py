@@ -220,7 +220,8 @@ def process_all_in_one(data):
 def g_kill_speech():
     print("\nc_kill_speech()")
     # Kill all process's of "play" that are playing the audio
-    os.system('''ps aux | grep "play -t mp3 -"| grep -v grep | awk '{print $2}' | xargs kill''')
+    res = os.system('''ps aux | grep "play -t mp3 -"| grep -v grep | awk '{print $2}' | xargs kill''')
+    return res
 
 def g_play_en():
     print("\nc_play_en()")
@@ -419,11 +420,15 @@ if len(sys.argv) == 2 and sys.argv[1] == "last_option":
     # Read from file the last option selected.
     last_option = Path(LAST_OPTION_FILE).read_text()
     if len(last_option) != 0:
-        print(f"\nProcessing shortcut last option...")
-        key = last_option
-        # Start the processing.
-        process_option(key)
-        exit()
+        res = g_kill_speech()
+        if res ==  0:
+            exit()
+        else:
+            print(f"\nProcessing shortcut last option...")
+            key = last_option
+            # Start the processing.
+            process_option(key)
+            exit()
 
      
 def key_press(event):

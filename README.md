@@ -4,7 +4,7 @@ A fast method for the text that you select, Text, PDF or EPUB, re-implementation
 ## Description
 
 **Note:**
-This is the **version 2.0, a total re-implementation in Python with many added features, support for more languages, support for translations, optimization of shortcuts and GUI. It has a simpler installation and configuration**. Know, it only uses 2 shortcuts for everything. The first one shows the menu to select the operation, the second shortcut allow you to repeat last operation on a new selected text, without displaying the GUI. You can use the mouse to click on the buttons or use the number key to selection the operation on the GUI. <br>  
+This is the **version 2.0, a total re-implementation in Python with many added features, support for more languages, support for translations, optimization of shortcuts and GUI. It has a simpler installation and configuration**. Know, it only uses 2 shortcuts for everything. The first one shows the menu to select the operation, the second shortcut allow you to repeat last operation on a new selected text, without displaying the GUI or kill the current speech if one is playing. You can use the mouse to click on the menu GUI buttons or use the number key to selection the operation on the GUI. <br>  
 <br>
 
 ![Linux Translation and Text to Speech with natural voice version 2.0](./linux_translation_and_TTS.png)
